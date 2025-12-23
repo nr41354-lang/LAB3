@@ -214,7 +214,7 @@ public class Hotel {
      for(int i=0; i< rooms.length- names.length; i++){
          boolean fre=true;
          for(int j=0; j< names.length; j++){
-             if(rooms[i+j]!=null || (i+j+1)%2!=0){
+             if(rooms[i+j]!=null){
                  fre=false;
              }
          }
